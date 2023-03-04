@@ -6,6 +6,7 @@
 - [x] design and implement the TTN-based simulation environment
 - [x] Using RL algorithm to solve the MPS-based quantum circuits simulation problem
 - [x] Using RL algorithm to solve the TTN-based quantum circuits simulation problem
+- [ ] Dataset and benchmark
 - [ ] Design and implement the MPS-based massive parallel simulation envrionment
 - [ ] Design and implement the TTN-based massive parallel simulation envrionment
 

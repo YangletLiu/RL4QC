@@ -2,8 +2,8 @@
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] design and implement the MPS-based simulation enviromnet  
-- [x] design and implement the TTN-based simulation environment
+- [x] design and implement the MPS-based simulation enviromnet (Gym style)
+- [x] design and implement the TTN-based simulation environment (Gym style)
 - [x] Using RL algorithm to solve the MPS-based quantum circuits simulation problem
 - [x] Using RL algorithm to solve the TTN-based quantum circuits simulation problem
 - [ ] Dataset and benchmark

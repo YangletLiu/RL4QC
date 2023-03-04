@@ -10,7 +10,6 @@
 - [ ] Design and implement the MPS-based massive parallel simulation envrionment
 - [ ] Design and implement the TTN-based massive parallel simulation envrionment
 
-## Result
 
 ## Experimental Results
 

@@ -23,6 +23,11 @@
 |![TTN](https://user-images.githubusercontent.com/75991833/217782955-cd2cd6e8-d0b8-4187-b7e7-d202266bcbfb.png)|30<br>30<br>GAP：0%|78<br>78<br>GAP：0%|174<br>180<br>GAP：3.45%|366<br>400<br>GAP：9.29%|750<br>832<br>GAP：10.94%|
 
 
+|Tensor representation|M=12|N=14|N=16|N=18|N=20|
+|-------| ----|------- | -----|------ |------ |
+|Sycamore|-------|-------|-------|-------|-------|
+
+
 Reference:
 
 [1] Meirom, E., Maron, H., Mannor, S., & Chechik, G. Optimizing tensor network contraction using reinforcement learning. In International Conference on Machine Learning (pp. 15278-15292). ICML 2022.

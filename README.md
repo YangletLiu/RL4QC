@@ -12,21 +12,18 @@
 
 
 ## Experimental Results
-
-|Tensor representation|N=10|N=30|N=50|N=100|
-|-------| ----|------- | -----|------ |
-|![TT](https://user-images.githubusercontent.com/75991833/217780619-40f42213-62b8-4db5-bfa9-0c9f8d97081d.png)|2464<br>2464<br>GAP：0%|2.1477512e9<br>2.14775169024e9<br>Gap: 2.283e-7|2.2518e15<br>2.2518001572826315e15<br>Gap: 6.985e-8|2.5353012e+30<br>2.535301200456459e+30<br>Gap: 1.8e-10|
-
-
-|Tensor representation|N=7|N=15|N=31|N=63|N=127|
-|-------| ----|------- | -----|------ |------ |
-|![TTN](https://user-images.githubusercontent.com/75991833/217782955-cd2cd6e8-d0b8-4187-b7e7-d202266bcbfb.png)|30<br>30<br>GAP：0%|78<br>78<br>GAP：0%|174<br>180<br>GAP：3.45%|366<br>400<br>GAP：9.29%|750<br>832<br>GAP：10.94%|
-
- m is the number of cycles.
-|Quantum Circuit|m=12|m=14|m=16|m=18|m=20|
-|-------| ----|------- | -----|------ |------ |
-|Sycamore (53 qubits)|-------|-------|-------|-------|-------|
-
+Tensor-Train/MPS tensor network  
+![TT](https://user-images.githubusercontent.com/75991833/217780619-40f42213-62b8-4db5-bfa9-0c9f8d97081d.png)  
+We present the ___Number of multiplications___ versus the ___Number of nodes___.   
+| Tensor   Network | number of nodes | 10    | 50     | 100    | 200    | 400     | 600     | 800     | 1000    | 1500    | 2000    |  
+|:----------------:|-----------------|-------|--------|--------|--------|---------|---------|---------|---------|---------|---------|  
+| Tensor-Train/MPS | OE greedy       | 3.848 | 15.875 | 30.927 | 61.030 | 121.236 | 181.442 | 241.648 | 301.854 | X       | X       |  
+|                  | OE dynamic      | 3.693 |--------|--------|--------|---------|---------|---------|---------|---------|---------|  
+|                  | CTG greedy      | 3.693 | 15.656 | 30.705 | 60.808 | 121.014 | 181.220 | 241.426 | 301.632 | X       | X       |  
+|                  | CTG kahypar     | 3.690 | 15.650 | 30.710 | 60.810 | 121.010 | 181.220 | 241.430 | 301.630 | 451.150 | 602.660 |  
+|                  | RL-Hamiltonian  |       |        |        |        |         |         |         |         |         |         |  
+note: (1) OE dynamic can not give a solution in a limited time for the number of nodes from 50 to 2000.  
+(2) OE greedy and CTG greedy can not scale up to the number of nodes 15000 and 2000.  
 
 Reference:
 

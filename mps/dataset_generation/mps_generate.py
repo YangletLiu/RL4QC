@@ -19,7 +19,8 @@ class MPS(TensorNetwork):
             pickle.dump(self, f)
             
 if __name__ == '__main__':
-    mps = MPS(100)
+    V = 100
+    mps = MPS(V)
     mps.build()
     mps.save('mps.pickle')
     with open('mps.pickle', 'rb') as f:

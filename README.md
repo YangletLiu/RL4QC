@@ -15,10 +15,17 @@
 ### Tensor-Train/MPS tensor network  
 ![TT](https://user-images.githubusercontent.com/75991833/217780619-40f42213-62b8-4db5-bfa9-0c9f8d97081d.png)  
 
+
+
 File structure:    
 mps\     
-    baseline\init.py, cotengra.py, opt_einsum.py    
-    dataset_generation\init.py, mps_generate.py     
+————baseline\
+————————————init.py, cotengra.py, opt_einsum.py      
+————dataset_generation\   
+————————————init.py, mps_generate.py       
+
+
+
 To run the baseline methods, just execute "python  cotengra.py" or "python opt_einsum.py", where the variable ___n___ is the number of the tensor network.    
 To generate the Tensor-Train/MPS dataset, please execute "python mps_generate.py", where the variable ___V___ in the ___main___  part is the number of tensor nodes.       
 

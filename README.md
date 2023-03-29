@@ -12,7 +12,7 @@
 
 
 ## Experimental Results
-Tensor-Train/MPS tensor network  
+### Tensor-Train/MPS tensor network  
 ![TT](https://user-images.githubusercontent.com/75991833/217780619-40f42213-62b8-4db5-bfa9-0c9f8d97081d.png)  
 We present the ___Number of multiplications___ versus the ___Number of nodes___.   
 

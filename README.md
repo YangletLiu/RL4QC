@@ -26,8 +26,8 @@ mps\
 
 
 
-To run the baseline methods, just execute "python  cotengra.py" or "python opt_einsum.py", where the variable ___n___ is the number of the tensor network.    
-To generate the Tensor-Train/MPS dataset, please execute "python mps_generate.py", where the variable ___V___ in the ___main___  part is the number of tensor nodes.       
+To run the baseline methods, just execute ___"python  cotengra.py"___ or ___"python opt_einsum.py"___, where the variable ___n___ is the number of the tensor network.    
+To generate the Tensor-Train/MPS dataset, please execute ___"python mps_generate.py"___, where the variable ___V___ in the ___main___  part is the number of tensor nodes.       
 
 We present the ___Number of multiplications___ versus the ___Number of tensor nodes___ in the tensor-train/mps tensor network in the following table,    
 

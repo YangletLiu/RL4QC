@@ -1,6 +1,7 @@
 # Classical Simulations of Quantum Circuits Using Reinforcement Learning
 <!-- ROADMAP -->
 ## Roadmap
+
 - [ ] design and implement the MPS-based simulation enviromnet (Gym style)
 - [ ] design and implement the TTN-based simulation environment (Gym style)
 - [ ] Using RL algorithm to solve the MPS-based quantum circuits simulation problem
@@ -45,7 +46,7 @@ note: (1) OE dynamic can not give a solution in a limited time for the number of
 ### Sycamore circuit    
 
 File structure:    
-mps\     
+sycamore\     
 ————baseline\  
 ————————————init.py, cotengra.py, opt_einsum.py      
 ————dataset\          

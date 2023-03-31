@@ -1,14 +1,42 @@
 # Classical Simulations of Quantum Circuits Using Reinforcement Learning
 <!-- ROADMAP -->
-## Roadmap
 
-- [ ] design and implement the MPS-based simulation enviromnet (Gym style)
-- [ ] design and implement the TTN-based simulation environment (Gym style)
-- [ ] Using RL algorithm to solve the MPS-based quantum circuits simulation problem
-- [ ] Using RL algorithm to solve the TTN-based quantum circuits simulation problem
-- [ ] Dataset and benchmark
-- [ ] Design and implement the MPS-based massive parallel simulation envrionment
-- [ ] Design and implement the TTN-based massive parallel simulation envrionment
+## Foreword   
+
+Dispute: Who wins in the classical versus quantum computing competition?   
+Back in 2019, Google proudly announced “quantum supremacy” with its 53-qubit Sycomore quantum circuits,  which was later challenged by researchers claiming to have pulled ahead of Google on classical computers. We assert that any tech giant, university spinoff, or startup is too hasty to advertise ``quantum supremacy” via quantum circuits on the scale of 50 ～ 100 qubits.  
+Thus, __an improved benchmark curve for classical simulations for quantum circuits__ is really important. This is also the reason why we start this project.    
+
+## Our goal  
+
+By representing the quantum gates as the tensor diagrams, the quantum circuits can be represented by a tensor network. Then, the simulation of quantum circuits actually corresponds to the contraction of the tensor network. Thus, the problem of getting an improved benchmark curve for classical simulations for quantym circuits becomes to find a better contraction order for the tensor network, which has fewer number of multiplications.   
+
+Reinforcement learning (RL) algorithms  have behaved great potential to solve such similar combination problems, such as graph cut, TSP, and so on. [1] also proposed to apply the RL algorithm to find the optimal tensor network contraction order. However, it is not enough to get the benchmark curve, as well as to identify the real “quantum supremacy”.   
+
+We hope this project can bridge the gap between the quantum circuit and the deep learning, especially the RL community, to work together to find the real “quantum supremacy” and prompt the techniuqe development.   
+
+
+## Roadmap  
+
+In our project, we will focus on two aspects, namely the dataset and benchmark,
+
+__dataset__: We will release various datasets for the tensor representations of quantum circuits, for other researchers to verify their ideas.
+[ ] Tensor-Train/MPS tensor network  
+[ ] Tensor-Ring tensor network  
+[ ] Tree tensor network
+[ ] PEPS tensor network  
+[ ] MERA tensor network  
+[ ] Google's Sycamore circuit
+
+__benchmark__: We will merge and supply widely used algorithms, which has been applied for the classical simulations of quantum circuits, for other researchers to compare their methods' performance.  
+[ ] greey strategy of optimized einsum (OE)
+[ ] dinamic programming of optimized einsum (OE)
+[ ] kahypar  
+[ ] RL-Hamiltonian   
+
+We are always welcome other researchers to contribute the benchmark algorithms, including the suggestions of methods, better hyper-parameters, etc., and the datasets, especially the pratical quantum circuits.   
+
+
 
 
 ## Experimental Results

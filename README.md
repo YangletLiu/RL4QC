@@ -20,7 +20,7 @@ We hope this project can bridge the gap between the quantum circuit and the deep
 
 In our project, we will focus on two aspects, namely the dataset and benchmark,
 
-__dataset__: We will release various datasets for the tensor representations of quantum circuits, for other researchers to verify their ideas.
+__dataset__: We will release various datasets for the tensor representations of quantum circuits, for other researchers to verify their ideas.  
 [ ] Tensor-Train/MPS tensor network  
 [ ] Tensor-Ring tensor network  
 [ ] Tree tensor network

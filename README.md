@@ -30,7 +30,7 @@ __Dataset__: We will release various datasets for the tensor representations of 
 
 __Simulation environment__: We will develop efficient simulation environments for reserchers to debug their algirithms. For each tensor network, we will develop the single and the parallel version of the simulation environment, respectively. The parallel enviroment will be much more efficient in the data sampling, thus to significantly improve the efficiency of training RL agents.  
 
-|Tensor network| Single envrionment | Parallel envrionment   |   
+|Tensor network| Single| Parallel|   
 |-----------------|-------|--------|  
 |Tensor-Train/MPS|:white_large_square:|:white_large_square:|  
 |Tensor-Ring|:white_large_square:|:white_large_square:|  
@@ -39,20 +39,6 @@ __Simulation environment__: We will develop efficient simulation environments fo
 |MERA tensor network|:white_large_square:|:white_large_square:|  
 |Google's Sycamore circuit|:white_large_square:|:white_large_square:|    
 
-Single envrionment  
-:white_large_square: Tensor-Train/MPS tensor network  
-:white_large_square: Tensor-Ring tensor network  
-:white_large_square: Tree tensor network  
-:white_large_square: PEPS tensor network  
-:white_large_square: MERA tensor network  
-:white_large_square: Google's Sycamore circuit  
-Parallel envrionment  
-:white_large_square: Tensor-Train/MPS tensor network  
-:white_large_square: Tensor-Ring tensor network  
-:white_large_square: Tree tensor network  
-:white_large_square: PEPS tensor network  
-:white_large_square: MERA tensor network  
-:white_large_square: Google's Sycamore circuit  
 
 __Benchmark__: We will merge and supply widely used algorithms, which has been applied for the classical simulations of quantum circuits, for other researchers to compare their methods' performance.  
 :white_check_mark: greey strategy of optimized einsum (OE)  

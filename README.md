@@ -32,12 +32,12 @@ __Simulation environment__: We will develop efficient simulation environments fo
 
 |Tensor network| Single| Parallel|   
 |-----------------|-------|--------|  
-|Tensor-Train/MPS|:white_large_square:|:white_large_square:|  
-|Tensor-Ring|:white_large_square:|:white_large_square:|  
+|TT/MPS|:white_large_square:|:white_large_square:|  
+|TR|:white_large_square:|:white_large_square:|  
 |Tree|:white_large_square:|:white_large_square:|  
 |PEPS|:white_large_square:|:white_large_square:|  
 |MERA |:white_large_square:|:white_large_square:|  
-|Google's Sycamore circuit|:white_large_square:|:white_large_square:|    
+|Sycamore|:white_large_square:|:white_large_square:|    
 
 
 __Benchmark__: We will merge and supply widely used algorithms, which has been applied for the classical simulations of quantum circuits, for other researchers to compare their methods' performance.  

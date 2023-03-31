@@ -1,13 +1,13 @@
 # Classical Simulations of Quantum Circuits Using Reinforcement Learning
 <!-- ROADMAP -->
 
-## Foreword   
+## :pencil: Foreword   
 
 Dispute: Who wins in the classical versus quantum computing competition?   
 Back in 2019, Google proudly announced “quantum supremacy” with its 53-qubit Sycomore quantum circuits,  which was later challenged by researchers claiming to have pulled ahead of Google on classical computers. We assert that any tech giant, university spinoff, or startup is too hasty to advertise ``quantum supremacy” via quantum circuits on the scale of 50 ～ 100 qubits.  
 Thus, __an improved benchmark curve for classical simulations for quantum circuits__ is really important. This is also the reason why we start this project.    
 
-## Our goal  
+## :dart: Our goal  
 
 By representing the quantum gates as the tensor diagrams, the quantum circuits can be represented by a tensor network. Then, the simulation of quantum circuits actually corresponds to the contraction of the tensor network. Thus, the problem of getting an improved benchmark curve for classical simulations for quantym circuits becomes to find a better contraction order for the tensor network, which has fewer number of multiplications.   
 
@@ -16,30 +16,30 @@ Reinforcement learning (RL) algorithms  have behaved great potential to solve su
 We hope this project can bridge the gap between the quantum circuit and the deep learning, especially the RL community, to work together to find the real “quantum supremacy” and prompt the techniuqe development.   
 
 
-## Roadmap  
+##  :jp: Roadmap  
 
-In our project, we will focus on two aspects, namely the dataset and benchmark,
+In our project, we will mainly focus on two aspects, namely the dataset and benchmark,
 
 __dataset__: We will release various datasets for the tensor representations of quantum circuits, for other researchers to verify their ideas.  
-[ ] Tensor-Train/MPS tensor network  
-[ ] Tensor-Ring tensor network  
-[ ] Tree tensor network
-[ ] PEPS tensor network  
-[ ] MERA tensor network  
-[ ] Google's Sycamore circuit
+:white_check_mark: Tensor-Train/MPS tensor network  
+:white_check_mark: Tensor-Ring tensor network  
+:white_check_mark: Tree tensor network
+:white_large_square: PEPS tensor network  
+:white_large_square: MERA tensor network  
+:white_large_square: Google's Sycamore circuit
 
 __benchmark__: We will merge and supply widely used algorithms, which has been applied for the classical simulations of quantum circuits, for other researchers to compare their methods' performance.  
-[ ] greey strategy of optimized einsum (OE)  
-[ ] dinamic programming of optimized einsum (OE)  
-[ ] kahypar    
-[ ] RL-Hamiltonian      
+:white_check_mark: greey strategy of optimized einsum (OE)  
+:white_check_mark: dinamic programming of optimized einsum (OE)  
+:white_check_mark: kahypar    
+:white_large_square: RL-Hamiltonian      
 
-We are always welcome other researchers to contribute the benchmark algorithms, including the suggestions of methods, better hyper-parameters, etc., and the datasets, especially the pratical quantum circuits.   
-
-
+:wave: We are always welcome other researchers to contribute the benchmark algorithms, including the suggestions of methods, better hyper-parameters, etc., and the datasets, especially the pratical quantum circuits.   
 
 
-## Experimental Results
+
+
+## :clipboard: Experimental Results
 ### Tensor-Train/MPS tensor network  
 ![TT](https://user-images.githubusercontent.com/75991833/217780619-40f42213-62b8-4db5-bfa9-0c9f8d97081d.png)  
 

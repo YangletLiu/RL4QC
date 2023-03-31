@@ -74,6 +74,8 @@ note: (1) OE dynamic can not give a solution in a limited time for the number of
 
 ### Sycamore circuit          
 
+![Sycamore](sycamore/dataset/sycamore.png)
+
 We present the ___Number of multiplications___ versus the ___Number of cycles___ in the sycamore circuit in the following table,    
 | number of cycles| 12    | 14     | 16     | 18     | 20      |      
 |-----------------|-------|--------|--------|--------|---------|  

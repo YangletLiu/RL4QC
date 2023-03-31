@@ -9,9 +9,9 @@ Thus, __an improved benchmark curve :chart_with_upwards_trend: for classical sim
 
 ## :dart: Our goal  
 
-By representing the quantum gates as the tensor diagrams, the quantum circuits can be represented by a tensor network. Then, the simulation of quantum circuits actually corresponds to the contraction of the tensor network. Thus, the problem of getting an improved benchmark curve for classical simulations for quantym circuits becomes to find a better contraction order for the tensor network, which has fewer number of multiplications.   
+By representing the quantum gates as the tensor diagrams, the quantum circuits can be represented by a tensor network. The simulation of the quantum circuit involves contracting the tensor network in a specific order. To improve the efficiency of classical simulations of quantum circuits, we need to find a better contraction order with fewer multiplications.  
 
-Reinforcement learning (RL) algorithms  have behaved great potential to solve such similar combination problems, such as graph cut, TSP, and so on. [1] also proposed to apply the RL algorithm to find the optimal tensor network contraction order. However, it is not enough to get the benchmark curve, as well as to identify the real “quantum supremacy”.   
+One potential solution is to use reinforcement learning (RL) algorithms, which have shown promise in solving similar combination problems like graph cut and TSP. Some researchers have proposed using RL to find the optimal tensor network contraction order, but this alone may not be enough to accurately measure "quantum supremacy" and improve the benchmark curve.      
 
 __We hope this project can bridge the gap between the quantum circuit and the deep learning, especially the RL community, to work together to find the real “quantum supremacy” . Come and join us in our mission to unlock the full potential of quantum circuits and revolutionize the world of computing!__  :raised_hands:
 

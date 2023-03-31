@@ -34,9 +34,9 @@ __Simulation environment__: We will develop efficient simulation environments fo
 |-----------------|-------|--------|  
 |Tensor-Train/MPS|:white_large_square:|:white_large_square:|  
 |Tensor-Ring|:white_large_square:|:white_large_square:|  
-|Tree tensor network |:white_large_square:|:white_large_square:|  
-|PEPS tensor network|:white_large_square:|:white_large_square:|  
-|MERA tensor network|:white_large_square:|:white_large_square:|  
+|Tree|:white_large_square:|:white_large_square:|  
+|PEPS|:white_large_square:|:white_large_square:|  
+|MERA |:white_large_square:|:white_large_square:|  
 |Google's Sycamore circuit|:white_large_square:|:white_large_square:|    
 
 

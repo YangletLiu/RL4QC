@@ -18,7 +18,7 @@ __We hope this project can bridge the gap between the quantum circuit and the de
 
 ## :triangular_flag_on_post: Roadmap  
 
-In our project, we will mainly focus on two aspects, namely the dataset, simulation envrionment, and benchmark,
+In our project, we will mainly focus on three aspects, namely the dataset, simulation envrionment, and benchmark,
 
 __Dataset__: We will release various datasets for the tensor representations of quantum circuits, for other researchers to verify their ideas.  
 :white_check_mark: Tensor-Train/MPS tensor network  

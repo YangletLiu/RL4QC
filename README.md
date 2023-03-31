@@ -53,7 +53,7 @@ __Benchmark__: We will merge and supply widely used algorithms, which has been a
 
 ## :clipboard: Experimental Results
 ### Tensor-Train/MPS tensor network  
-![TT](https://user-images.githubusercontent.com/75991833/217780619-40f42213-62b8-4db5-bfa9-0c9f8d97081d.png)   
+![TT](/mps/img/ttmps.png)   
 
 To run the baseline methods, just execute ___"python  cotengra.py"___ or ___"python opt_einsum.py"___, where the variable ___n___ is the number of the tensor network.    
 To generate the Tensor-Train/MPS dataset, please execute ___"python mps_generate.py"___, where the variable ___V___ in the ___main___  part is the number of tensor nodes.       

@@ -16,7 +16,7 @@ Reinforcement learning (RL) algorithms  have behaved great potential to solve su
 We hope this project can bridge the gap between the quantum circuit and the deep learning, especially the RL community, to work together to find the real “quantum supremacy” and prompt the techniuqe development.   
 
 
-## :jp: Roadmap  
+## :triangular_flag_on_post: Roadmap  
 
 In our project, we will mainly focus on two aspects, namely the dataset and benchmark,
 

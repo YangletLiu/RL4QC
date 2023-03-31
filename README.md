@@ -16,14 +16,14 @@ Reinforcement learning (RL) algorithms  have behaved great potential to solve su
 We hope this project can bridge the gap between the quantum circuit and the deep learning, especially the RL community, to work together to find the real “quantum supremacy” and prompt the techniuqe development.   
 
 
-##  :jp: Roadmap  
+## :jp: Roadmap  
 
 In our project, we will mainly focus on two aspects, namely the dataset and benchmark,
 
 __dataset__: We will release various datasets for the tensor representations of quantum circuits, for other researchers to verify their ideas.  
 :white_check_mark: Tensor-Train/MPS tensor network  
 :white_check_mark: Tensor-Ring tensor network  
-:white_check_mark: Tree tensor network
+:white_check_mark: Tree tensor network  
 :white_large_square: PEPS tensor network  
 :white_large_square: MERA tensor network  
 :white_large_square: Google's Sycamore circuit
@@ -41,18 +41,7 @@ __benchmark__: We will merge and supply widely used algorithms, which has been a
 
 ## :clipboard: Experimental Results
 ### Tensor-Train/MPS tensor network  
-![TT](https://user-images.githubusercontent.com/75991833/217780619-40f42213-62b8-4db5-bfa9-0c9f8d97081d.png)  
-
-
-
-File structure:    
-mps\     
-————baseline\  
-————————————init.py, cotengra.py, opt_einsum.py      
-————dataset_generation\   
-————————————init.py, mps_generate.py       
-
-
+![TT](https://user-images.githubusercontent.com/75991833/217780619-40f42213-62b8-4db5-bfa9-0c9f8d97081d.png)   
 
 To run the baseline methods, just execute ___"python  cotengra.py"___ or ___"python opt_einsum.py"___, where the variable ___n___ is the number of the tensor network.    
 To generate the Tensor-Train/MPS dataset, please execute ___"python mps_generate.py"___, where the variable ___V___ in the ___main___  part is the number of tensor nodes.       
@@ -71,13 +60,7 @@ note: (1) OE dynamic can not give a solution in a limited time for the number of
 (2) OE greedy and CTG greedy can not scale up to the number of nodes 15000 and 2000.  
 
 
-### Sycamore circuit    
-
-File structure:    
-sycamore\     
-————baseline\  
-————————————init.py, cotengra.py, opt_einsum.py      
-————dataset\          
+### Sycamore circuit          
 
 We present the ___Number of multiplications___ versus the ___Number of cycles___ in the sycamore circuit in the following table,    
 | number of cycles| 12    | 14     | 16     | 18     | 20      |      

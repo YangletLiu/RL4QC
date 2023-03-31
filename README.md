@@ -30,7 +30,7 @@ __Dataset__: We will release various datasets for the tensor representations of 
 
 __Simulation environment__: We will develop efficient simulation environments for reserchers to debug their algirithms. For each tensor network, we will develop the single and the parallel version of the simulation environment, respectively. The parallel enviroment will be much more efficient in the data sampling, thus to significantly improve the efficiency of training RL agents.  
 
-|Tensor network| Single| Parallel|   
+|Tensor network| Single :bike: | Parallel :rocket:|   
 |-----------------|-------|--------|  
 |TT/MPS|:white_large_square:|:white_large_square:|  
 |TR|:white_large_square:|:white_large_square:|  

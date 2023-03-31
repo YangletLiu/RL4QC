@@ -29,10 +29,10 @@ __dataset__: We will release various datasets for the tensor representations of 
 [ ] Google's Sycamore circuit
 
 __benchmark__: We will merge and supply widely used algorithms, which has been applied for the classical simulations of quantum circuits, for other researchers to compare their methods' performance.  
-[ ] greey strategy of optimized einsum (OE)
-[ ] dinamic programming of optimized einsum (OE)
-[ ] kahypar  
-[ ] RL-Hamiltonian   
+[ ] greey strategy of optimized einsum (OE)  
+[ ] dinamic programming of optimized einsum (OE)  
+[ ] kahypar    
+[ ] RL-Hamiltonian      
 
 We are always welcome other researchers to contribute the benchmark algorithms, including the suggestions of methods, better hyper-parameters, etc., and the datasets, especially the pratical quantum circuits.   
 

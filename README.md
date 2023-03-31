@@ -3,7 +3,7 @@
 
 ## :pencil: Foreword   
 
-:open_mouth: Who wins in the classical versus quantum computing competition :question:   
+:open_mouth: __Who wins in the classical versus quantum computing competition__ ? 
 Back in 2019, Google proudly announced “quantum supremacy” with its 53-qubit Sycomore quantum circuits,  which was later challenged by researchers claiming to have pulled ahead of Google on classical computers. We assert that any tech giant, university spinoff, or startup is too hasty to advertise ``quantum supremacy” via quantum circuits on the scale of 50 ～ 100 qubits.  
 Thus, __an improved benchmark curve for classical simulations for quantum circuits__ is really important. This is also the reason why we start this project.    
 

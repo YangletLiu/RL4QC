@@ -73,7 +73,7 @@ We present the ___Number of multiplications___ versus the ___Number of tensor no
 
 :warning: Note:   
 (1) OE dynamic can not give a solution in a limited time for the number of nodes from 50 to 2000.  
-(2) OE greedy and CTG greedy can not scale up to the number of nodes 15000 and 2000.  
+(2) OE greedy and CTG greedy can not scale up to the number of nodes 1500 and 2000.  
 
 
 ### Sycamore circuit          

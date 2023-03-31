@@ -54,6 +54,24 @@ __Benchmark__: We will merge and supply widely used algorithms, which has been a
 
 ## :clipboard: Experimental Results  
 
+### File Structure
+
+```
+RL4QuantumCircuits
+├── mps
+|    ├──baseline
+|    |      ├─────cotengra.py
+|    |      ├─────opt_einsum.py
+|    └──dataset_generation
+├── sycamore
+     ├──baseline
+     |      ├─────cotengra.py
+     |      ├─────opt_einsum.py
+     ├──dataset
+
+
+```
+
 ### How to run   
 :small_orange_diamond: To run the baseline methods, just execute ___"python  cotengra.py"___ or ___"python opt_einsum.py"___, where the variable n is the number of the tensor nodes.      
 :small_orange_diamond: To generate the  dataset, please execute __"python *_generate.py"___, where the variable V in the main  part is the number of tensor nodes.        

@@ -13,7 +13,7 @@ By representing the quantum gates as the tensor diagrams, the quantum circuits c
 
 Reinforcement learning (RL) algorithms  have behaved great potential to solve such similar combination problems, such as graph cut, TSP, and so on. [1] also proposed to apply the RL algorithm to find the optimal tensor network contraction order. However, it is not enough to get the benchmark curve, as well as to identify the real “quantum supremacy”.   
 
-__We hope this project can bridge the gap between the quantum circuit and the deep learning, especially the RL community, to work together to find the real “quantum supremacy” and prompt the techniuqe development.__  
+__We hope this project can bridge the gap between the quantum circuit and the deep learning, especially the RL community, to work together to find the real “quantum supremacy” . Come and join us in our mission to unlock the full potential of quantum circuits and revolutionize the world of computing!__  :raised_hands:
 
 
 ## :triangular_flag_on_post: Roadmap  

@@ -68,7 +68,8 @@ We present the ___Number of multiplications___ versus the ___Number of tensor no
 | CTG kahypar     | 3.690 | 15.650 | 30.710 | 60.810 | 121.010 | 181.220 | 241.430 | 301.630 | 451.150 | 602.660 |  
 | RL-Hamiltonian  |       |        |        |        |         |         |         |         |         |         |  
 
-note: (1) OE dynamic can not give a solution in a limited time for the number of nodes from 50 to 2000.  
+:warning: Note:   
+(1) OE dynamic can not give a solution in a limited time for the number of nodes from 50 to 2000.  
 (2) OE greedy and CTG greedy can not scale up to the number of nodes 15000 and 2000.  
 
 

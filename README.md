@@ -41,8 +41,8 @@ __Simulation environment__: We will develop efficient simulation environments fo
 
 
 __Benchmark__: We will merge and supply widely used algorithms, which has been applied for the classical simulations of quantum circuits, for other researchers to compare their methods' performance.  
-:white_check_mark: greey strategy of optimized einsum (OE)  
-:white_check_mark: dinamic programming of optimized einsum (OE)  
+:white_check_mark: greey strategy of optimized einsum (OE greedy)  
+:white_check_mark: dinamic programming of optimized einsum (OE dynamic)  
 :white_check_mark: cotengra kahypar (CTG kahypar)      
 :white_check_mark: cotengra greedy (CTG greedy)  
 :white_large_square: RL-Hamiltonian      

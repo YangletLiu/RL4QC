@@ -13,22 +13,38 @@ By representing the quantum gates as the tensor diagrams, the quantum circuits c
 
 Reinforcement learning (RL) algorithms  have behaved great potential to solve such similar combination problems, such as graph cut, TSP, and so on. [1] also proposed to apply the RL algorithm to find the optimal tensor network contraction order. However, it is not enough to get the benchmark curve, as well as to identify the real “quantum supremacy”.   
 
-We hope this project can bridge the gap between the quantum circuit and the deep learning, especially the RL community, to work together to find the real “quantum supremacy” and prompt the techniuqe development.   
+__We hope this project can bridge the gap between the quantum circuit and the deep learning, especially the RL community, to work together to find the real “quantum supremacy” and prompt the techniuqe development.__  
 
 
 ## :triangular_flag_on_post: Roadmap  
 
-In our project, we will mainly focus on two aspects, namely the dataset and benchmark,
+In our project, we will mainly focus on two aspects, namely the dataset, simulation envrionment, and benchmark,
 
-__dataset__: We will release various datasets for the tensor representations of quantum circuits, for other researchers to verify their ideas.  
+__Dataset__: We will release various datasets for the tensor representations of quantum circuits, for other researchers to verify their ideas.  
 :white_check_mark: Tensor-Train/MPS tensor network  
 :white_check_mark: Tensor-Ring tensor network  
 :white_check_mark: Tree tensor network  
 :white_large_square: PEPS tensor network  
 :white_large_square: MERA tensor network  
-:white_large_square: Google's Sycamore circuit
+:white_large_square: Google's Sycamore circuit  
 
-__benchmark__: We will merge and supply widely used algorithms, which has been applied for the classical simulations of quantum circuits, for other researchers to compare their methods' performance.  
+__Simulation environment__: We will develop efficient simulation environments for reserchers to debug their algirithms. For each tensor network, we will develop the single and the parallel version of the simulation environment, respectively. The parallel enviroment will be much more efficient in the data sampling, thus to significantly improve the efficiency of training RL agents.  
+Single envrionment  
+:white_large_square: Tensor-Train/MPS tensor network  
+:white_large_square: Tensor-Ring tensor network  
+:white_large_square: Tree tensor network  
+:white_large_square: PEPS tensor network  
+:white_large_square: MERA tensor network  
+:white_large_square: Google's Sycamore circuit  
+Parallel envrionment  
+:white_large_square: Tensor-Train/MPS tensor network  
+:white_large_square: Tensor-Ring tensor network  
+:white_large_square: Tree tensor network  
+:white_large_square: PEPS tensor network  
+:white_large_square: MERA tensor network  
+:white_large_square: Google's Sycamore circuit  
+
+__Benchmark__: We will merge and supply widely used algorithms, which has been applied for the classical simulations of quantum circuits, for other researchers to compare their methods' performance.  
 :white_check_mark: greey strategy of optimized einsum (OE)  
 :white_check_mark: dinamic programming of optimized einsum (OE)  
 :white_check_mark: kahypar    

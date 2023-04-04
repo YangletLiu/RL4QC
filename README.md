@@ -87,7 +87,7 @@ We present the ___Number of multiplications___ versus the ___Number of tensor no
 | OE dynamic      | 3.693 |-------|-------|-------|--------|--------|--------|--------|--------|--------|  
 | CTG greedy      | 3.693 | 15.656 | 30.705 | 60.808 | 121.014 | 181.220 | 241.426 | 301.632 | X       | X       |  
 | CTG kahypar     | 3.690 | 15.650 | 30.710 | 60.810 | 121.010 | 181.220 | 241.430 | 301.630 | 451.150 | 602.660 |  
-| RL-Hamiltonian  |       |        |        |        |         |         |         |         |         |         |  
+| RL-Hamiltonian  | 3.392 | 15.232 | 30.404 | 60.507 | 120.713 | 180.919 | 241.125 | 301.331 |         |         |  
 
 :warning: Note:   
 (1) OE dynamic can not give a solution in a limited time for the number of nodes from 50 to 2000.  

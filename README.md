@@ -58,18 +58,20 @@ __Benchmark__: We will merge and supply widely used algorithms, which has been a
 
 ```
 RL4QuantumCircuits
-├── mps
-|    ├──baseline
-|    |      ├─────cotengra.py
-|    |      ├─────opt_einsum.py
-|    └──dataset_generation
-├── sycamore
-     ├──baseline
-     |      ├─────cotengra.py
-     |      ├─────opt_einsum.py
-     ├──dataset
-
-
+├── baseline
+|    ├──mps
+|    |──tr
+|    |──tree
+|    |──peps
+|    |──mera
+|    |──sycamore
+├── dataset
+|    ├──mps
+|    |──sycamore
+├── rl
+|    ├──mps
+|    ├──sycamore
+├── verification
 ```
 
 ### How to run   

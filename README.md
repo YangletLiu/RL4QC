@@ -80,8 +80,7 @@ RL4QuantumCircuits
 :small_orange_diamond: To run the baseline methods, just execute ___"python  cotengra.py"___ or ___"python opt_einsum.py"___, where the variable n is the number of the tensor nodes.      
 :small_orange_diamond: To generate the  dataset, please execute __"python *_generate.py"___, where the variable V in the main  part is the number of tensor nodes.        
 
-### Tensor-Train/MPS tensor network  
-![TT](/mps/img/ttmps.png)    
+### Tensor-Train/MPS tensor network   
 
 We present the ___Number of multiplications___ versus the ___Number of tensor nodes___ in the tensor-train/mps tensor network in the following table,    
 
@@ -99,7 +98,6 @@ We present the ___Number of multiplications___ versus the ___Number of tensor no
 
 ### Sycamore circuit          
 
-![Sycamore](sycamore/dataset/sycamore.png)
 
 We present the ___Number of multiplications___ versus the ___Number of cycles___ in the sycamore circuit in the following table,    
 | number of cycles| 12    | 14     | 16     | 18     | 20      |      

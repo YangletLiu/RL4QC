@@ -72,6 +72,8 @@ RL4QuantumCircuits
 |    ├──mps
 |    ├──sycamore
 ├── verification
+|    ├──code
+|    ├──orders
 ```
 
 ### How to run   
@@ -107,6 +109,10 @@ We present the ___Number of multiplications___ versus the ___Number of cycles___
 | CTG kahypar     | 13.408 | 14.152 | 17.012 | 17.684 | 18.826 |     
 | RL-Hamiltonian  |       |        |        |        |         |      
 
+
+### Related blogs  
+About tensor networks https://zhuanlan.zhihu.com/p/623285707   
+About tensor-train/mps tensor network  https://zhuanlan.zhihu.com/p/623582170   
 
 Reference:
 

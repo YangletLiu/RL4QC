@@ -1,0 +1,49 @@
+bcd,ab->cda
+¹º,·¸¹->º·¸
+fgh,def->ghde
+jkl,hij->klhi
+nop,lmn->oplm
+rst,pqr->stpq
+vwx,tuv->wxtu
+zAB,xyz->ABxy
+DEF,BCD->EFBC
+HIJ,FGH->IJFG
+LMN,JKL->MNJK
+PQR,NOP->QRNO
+TUV,RST->UVRS
+XYZ,VWX->YZVW
+,Z->Z
+,->
+,->
+,->
+,->
+¡¢£, ¡->¢£ 
+¥¦§,£¤¥->¦§£¤
+©ª«,§¨©->ª«§¨
+­®¯,«¬­->®¯«¬
+±²³,¯°±->²³¯°
+µ¶·,³´µ->¶·³´
+¶·³´,º·¸->¶³´º¸
+¶³´º¸,²³¯°->¶´º¸²¯°
+¶´º¸²¯°,®¯«¬->¶´º¸²°®«¬
+¶´º¸²°®«¬,ª«§¨->¶´º¸²°®¬ª§¨
+¶´º¸²°®¬ª§¨,¦§£¤->¶´º¸²°®¬ª¨¦£¤
+¶´º¸²°®¬ª¨¦£¤,¢£ ->¶´º¸²°®¬ª¨¦¤¢ 
+¶´º¸²°®¬ª¨¦¤¢ ,->¶´º¸²°®¬ª¨¦¤¢ 
+¶´º¸²°®¬ª¨¦¤¢ ,->¶´º¸²°®¬ª¨¦¤¢ 
+¶´º¸²°®¬ª¨¦¤¢ ,->¶´º¸²°®¬ª¨¦¤¢ 
+¶´º¸²°®¬ª¨¦¤¢ ,->¶´º¸²°®¬ª¨¦¤¢ 
+¶´º¸²°®¬ª¨¦¤¢ ,Z->¶´º¸²°®¬ª¨¦¤¢ Z
+¶´º¸²°®¬ª¨¦¤¢ Z,YZVW->¶´º¸²°®¬ª¨¦¤¢ YVW
+¶´º¸²°®¬ª¨¦¤¢ YVW,UVRS->¶´º¸²°®¬ª¨¦¤¢ YWURS
+¶´º¸²°®¬ª¨¦¤¢ YWURS,QRNO->¶´º¸²°®¬ª¨¦¤¢ YWUSQNO
+¶´º¸²°®¬ª¨¦¤¢ YWUSQNO,MNJK->¶´º¸²°®¬ª¨¦¤¢ YWUSQOMJK
+¶´º¸²°®¬ª¨¦¤¢ YWUSQOMJK,IJFG->¶´º¸²°®¬ª¨¦¤¢ YWUSQOMKIFG
+¶´º¸²°®¬ª¨¦¤¢ YWUSQOMKIFG,EFBC->¶´º¸²°®¬ª¨¦¤¢ YWUSQOMKIGEBC
+¶´º¸²°®¬ª¨¦¤¢ YWUSQOMKIGEBC,ABxy->¶´º¸²°®¬ª¨¦¤¢ YWUSQOMKIGECAxy
+¶´º¸²°®¬ª¨¦¤¢ YWUSQOMKIGECAxy,wxtu->¶´º¸²°®¬ª¨¦¤¢ YWUSQOMKIGECAywtu
+¶´º¸²°®¬ª¨¦¤¢ YWUSQOMKIGECAywtu,stpq->¶´º¸²°®¬ª¨¦¤¢ YWUSQOMKIGECAywuspq
+¶´º¸²°®¬ª¨¦¤¢ YWUSQOMKIGECAywuspq,oplm->¶´º¸²°®¬ª¨¦¤¢ YWUSQOMKIGECAywusqolm
+¶´º¸²°®¬ª¨¦¤¢ YWUSQOMKIGECAywusqolm,klhi->¶´º¸²°®¬ª¨¦¤¢ YWUSQOMKIGECAywusqomkhi
+¶´º¸²°®¬ª¨¦¤¢ YWUSQOMKIGECAywusqomkhi,ghde->¶´º¸²°®¬ª¨¦¤¢ YWUSQOMKIGECAywusqomkigde
+¶´º¸²°®¬ª¨¦¤¢ YWUSQOMKIGECAywusqomkigde,cda->acegikmoqsuwyACEGIKMOQSUWY ¢¤¦¨ª¬®°²´¶¸º

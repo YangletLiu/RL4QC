@@ -113,7 +113,7 @@ About tensor networks https://zhuanlan.zhihu.com/p/623285707
 About tensor-train/mps tensor network  https://zhuanlan.zhihu.com/p/623582170   
 About quantum circuits simulations using tensor networks https://zhuanlan.zhihu.com/p/624353259
 
-Reference:
+### Reference:
 
 [1] Meirom, E., Maron, H., Mannor, S., & Chechik, G. Optimizing tensor network contraction using reinforcement learning. In International Conference on Machine Learning (pp. 15278-15292). ICML 2022.  
 [2] Daniel, G., Gray, J., et al. (2018). Opt_einsum-a python package for optimizing contraction order for einsum-like expressions. Journal of Open Source Software, 3(26):753 https://github.com/dgasmith/opt_einsum    

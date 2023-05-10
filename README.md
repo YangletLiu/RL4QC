@@ -113,6 +113,7 @@ About tensor networks https://zhuanlan.zhihu.com/p/623285707
 About tensor-train/mps tensor network  https://zhuanlan.zhihu.com/p/623582170   
 About quantum circuits simulations using tensor networks https://zhuanlan.zhihu.com/p/624353259  
 About the design of environments https://zhuanlan.zhihu.com/p/627658313  
+About the tensor network dataset generation https://zhuanlan.zhihu.com/p/628239428?  
 
 ### Reference:
 

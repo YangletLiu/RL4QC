@@ -65,9 +65,18 @@ RL4QuantumCircuits
 |    |──peps
 |    |──mera
 |    |──sycamore
-├── dataset
+├── datasets_generator
 |    ├──mps
 |    |──sycamore
+|    |──tr
+|    |──tree
+|    |──peps
+├── simulation_data
+|    ├──mps
+|    |──sycamore
+|    |──tr
+|    |──tree
+|    |──peps
 ├── rl
 |    ├──mps
 |    ├──sycamore
@@ -75,6 +84,11 @@ RL4QuantumCircuits
 |    ├──code
 |    ├──orders
 ```
+
+We provide the classical simulation data of quantum circuits in the __simulation_data__ dictionary, which covers the Sycamore circuits,  matrix product state (mps), tensor ring (tr), tensor tree (tree), and peps with a range of nodes.  
+In each file, we use the string to represent the quantum circuits, where each character stands for an edge, and the adjacent character indicates the connections between nodes.  
+
+
 
 ### How to run   
 :small_orange_diamond: To run the baseline methods, just execute ___"python  cotengra.py"___ or ___"python opt_einsum.py"___, where the variable n is the number of the tensor nodes.      

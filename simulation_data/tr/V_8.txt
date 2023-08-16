@@ -1,0 +1,1 @@
+pab,bcd,def,fgh,hij,jkl,lmn,nop->acegikmo

@@ -1,4 +1,4 @@
-# Classical Simulations of Quantum Circuits Using Reinforcement Learning
+# Classical Simulation of Quantum Circuits Using Reinforcement Learning: Parallel Environments and Benchmark
 <!-- ROADMAP -->   
 
 ## :pencil: Foreword   
@@ -32,12 +32,12 @@ __Simulation environment__: We will develop efficient simulation environments fo
 
 |Tensor network| Single :bike: | Parallel :rocket:|   
 |-----------------|-------|--------|  
-|TT/MPS|:white_large_square:|:white_large_square:|  
-|TR|:white_large_square:|:white_large_square:|  
-|Tree|:white_large_square:|:white_large_square:|  
-|PEPS|:white_large_square:|:white_large_square:|  
-|MERA |:white_large_square:|:white_large_square:|  
-|Sycamore|:white_large_square:|:white_large_square:|    
+|TT/MPS|:white_check_mark:|:white_large_square:|  
+|TR|:white_check_mark:|:white_large_square:|  
+|Tree|:white_check_mark:|:white_large_square:|  
+|PEPS|:white_check_mark:|:white_large_square:|  
+|MERA |:white_check_mark:|:white_large_square:|  
+|Sycamore|:white_check_mark:|:white_large_square:|    
 
 
 __Benchmark__: We will merge and supply widely used algorithms, which has been applied for the classical simulations of quantum circuits, for other researchers to compare their methods' performance.  
@@ -45,7 +45,7 @@ __Benchmark__: We will merge and supply widely used algorithms, which has been a
 :white_check_mark: dinamic programming of optimized einsum (OE dynamic)  
 :white_check_mark: cotengra kahypar (CTG kahypar)      
 :white_check_mark: cotengra greedy (CTG greedy)  
-:white_large_square: RL-Hamiltonian      
+:white_check_mark: RL-Hamiltonian      
 
 :wave: We are always welcome other researchers to contribute the benchmark algorithms, including the suggestions of methods, better hyper-parameters, etc., and the datasets, especially the pratical quantum circuits.   
 
@@ -103,7 +103,7 @@ We present the ___Number of multiplications___ versus the ___Number of tensor no
 | OE greedy       | 3.848 | 15.875 | 30.927 | 61.030 | 121.236 | 181.442 | 241.648 | 301.854 | X       | X       |  
 | CTG greedy      | 3.693 | 15.656 | 30.705 | 60.808 | 121.014 | 181.220 | 241.426 | 301.632 | X       | X       |  
 | CTG kahypar     | 3.690 | 15.650 | 30.710 | 60.810 | 121.010 | 181.220 | 241.430 | 301.630 | 451.150 | 602.660 |  
-| RL-Hamiltonian  | 3.392 | 15.232 | 30.404 | 60.507 | 120.713 | 180.919 | 241.125 | 301.331 |         |         |  
+| RL-Ising        | 3.392 | 15.232 | 30.404 | 60.507 | 120.713 | 180.919 | 241.125 | 301.331 |         |         |  
 
 :warning: Note:   
 (1) OE dynamic can not give a solution in a limited time for the number of nodes from 50 to 2000.  
@@ -119,7 +119,7 @@ We present the ___Number of multiplications___ versus the ___Number of cycles___
 | OE greedy       | 17.795| 19.679 | 25.889 | 26.793 | 26.491 |   
 | CTG greedy      | 17.065 | 19.282 | 23.151 | 23.570 | 25.623 |    
 | CTG kahypar     | 13.408 | 14.152 | 17.012 | 17.684 | 18.826 |     
-| RL-Hamiltonian  |       |        |        |        |         |      
+| RL-Ising        |       |        |        |        |         |      
 
 
 ### Related blogs  

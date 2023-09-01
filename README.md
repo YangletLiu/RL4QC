@@ -4,8 +4,10 @@
 ## :pencil: Foreword   
 
 __Who wins in the classical versus quantum computing competition?__ :open_mouth:    
-Back in 2019, Google proudly announced the first demonstation of “quantum supremacy” with its 53-qubit Sycomore quantum circuits,  which was later challenged by researchers claiming to have pulled ahead of Google on classical computers. We assert that any tech giant, university spinoff, or startup is too hasty to advertise ``quantum supremacy” via quantum circuits on the scale of 50 ～ 100 qubits.  
-Thus, __an improved benchmark curve :chart_with_upwards_trend: for classical simulations for quantum circuits__ is really important. This is also the reason why we start this project.    
+Back in 2019, Google proudly announced the first demonstation [1] of “quantum supremacy” with its 53-qubit Sycomore quantum circuits,  which was later challenged by researchers claiming to have pulled ahead of Google on classical computers. We assert that any tech giant, university spinoff, or startup is too hasty to advertise ``quantum supremacy” via quantum circuits on the scale of 50 ～ 100 qubits.  
+Thus, __an improved benchmark curve :chart_with_upwards_trend: for classical simulations for quantum circuits__ is really important. This is also the reason why we start this project. 
+
+[1] Arute, Frank, Kunal Arya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Rami Barends, Rupak Biswas et al. "Quantum supremacy using a programmable superconducting processor." Nature 574, no. 7779 (2019): 505-510.
 
 ## :dart: Our goal  
 

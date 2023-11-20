@@ -48,7 +48,7 @@ while i < len(valid_combinations):
         merged_combinations.append(current)
 
     i += 1
-    
+
 count = 0
 for group in merged_combinations:
     print(f"符合条件的组 {count + 1}:")

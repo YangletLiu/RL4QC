@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np24
 import torch
 import timeit
 import time
@@ -7,17 +7,13 @@ import time
 tensor1_torch = torch.complex(torch.rand([2] * 30), torch.rand([2] * 30))
 tensor2_torch = torch.complex(torch.rand([2] * 30), torch.rand([2] * 30))
 
+
+
+
 # 移到GPU
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 tensor1_torch = tensor1_torch.to(device)
 tensor2_torch = tensor2_torch.to(device)
-
-# Using torch.tensordot
-tensordot_result_torch_gpu = timeit.timeit(lambda: torch.tensordot(tensor1_torch, tensor2_torch, dims=30), number=10)
-
-# Using torch.matmul
-matmul_result_torch = timeit.timeit(lambda: torch.matmul(tensor1_torch, tensor2_torch), number=10)
-
 
 # 生成爱因斯坦积公式
 def generate_einsum_equation(dimensions):
@@ -27,9 +23,19 @@ def generate_einsum_equation(dimensions):
     equation_rhs = equation_lhs
     return f"{equation_lhs},{equation_rhs}->"
 
-
-# 为26阶以上的张量生成爱因斯坦积公式
+# 为30阶以上的张量生成爱因斯坦积公式
 einsum_equation = generate_einsum_equation(30)
+
+
+# 避免冷启动
+matmul_test = timeit.timeit(lambda: torch.matmul(tensor1_torch, tensor1_torch), number=10)
+
+
+# Using torch.matmul
+matmul_result_torch = timeit.timeit(lambda: torch.matmul(tensor1_torch, tensor2_torch), number=10)
+
+# Using torch.tensordot
+tensordot_result_torch_gpu = timeit.timeit(lambda: torch.tensordot(tensor1_torch, tensor2_torch, dims=30), number=10)
 
 # Using torch.einsum
 einsum_result_torch_gpu = timeit.timeit(lambda: torch.einsum(einsum_equation, tensor1_torch, tensor2_torch), number=10)
@@ -68,7 +74,6 @@ def optimized_blockwise_parallel(tensor1, tensor2, num_chunks=8):
     # 返回结果列表和计算时间列表
     return results, computation_times
 
-
 # 分割张量并预先传输到GPU
 def prepare_tensors(tensor, num_blocks=4, split_dim=4):
     tensor_splits = tensor.split(2, dim=split_dim)
@@ -76,17 +81,20 @@ def prepare_tensors(tensor, num_blocks=4, split_dim=4):
     return tensor_splits_gpu
 
 
+
 # 准备张量
 tensor1_splits = prepare_tensors(tensor1_torch, num_blocks=4, split_dim=4)
 tensor2_splits = prepare_tensors(tensor2_torch, num_blocks=4, split_dim=4)
 
+
+
 # 测量优化后的方法时间
-optimized_results, optimized_computation_times = optimized_blockwise_parallel(tensor1_torch, tensor2_torch,
-                                                                              num_chunks=128)
+optimized_results, optimized_computation_times = optimized_blockwise_parallel(tensor1_torch, tensor2_torch, num_chunks=128)
 max_computation_time = max(optimized_computation_times)
 
 # Print results
-print("PyTorch tensordot time:", tensordot_result_torch_gpu * 100)
-print("PyTorch einsum time:", einsum_result_torch_gpu * 100)
-print("PyTorch matmul time:", matmul_result_torch * 100)
-print("Optimized GPU method time:", max_computation_time * 100)
+print("PyTorch matmul time:", matmul_result_torch * 1000)
+print("PyTorch tensordot time:", tensordot_result_torch_gpu * 1000)
+print("PyTorch einsum time:", einsum_result_torch_gpu * 1000)
+print("Optimized GPU method time:", max_computation_time * 1000)
+                                                                                                                                        

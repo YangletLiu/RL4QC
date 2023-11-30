@@ -123,6 +123,9 @@ We present the ___Number of multiplications___ versus the ___Number of cycles___
 | CTG kahypar     | 13.408 | 14.152 | 17.012 | 17.684 | 18.826 |     
 | RL-Ising        |       |        |        |        |         |      
 
+### Benchmark results
+
+We open-source the benchmark results of the classical simulation of quantum circuits on Sycamore circuits at https://drive.google.com/drive/folders/16D3yaUrBIH_5bFZQJoXpGnKDDXAIZHmk?usp=sharing .
 
 ### Related blogs  
 About tensor networks https://zhuanlan.zhihu.com/p/623285707   

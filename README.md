@@ -1,4 +1,4 @@
-# Classical Simulation of Quantum Circuits Using Reinforcement Learning: Parallel Environments and Benchmark
+# Classical Simulation of Quantum Circuits Using Reinforcement Learning: Parallel Environments and Benchmark, NeurIPS 2023
 <!-- ROADMAP -->   
 
 ## :pencil: Foreword   

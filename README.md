@@ -138,5 +138,13 @@ About the tensor network dataset generation https://zhuanlan.zhihu.com/p/6282394
 
 [1] Meirom, E., Maron, H., Mannor, S., & Chechik, G. Optimizing tensor network contraction using reinforcement learning. In International Conference on Machine Learning (pp. 15278-15292). ICML 2022.  
 [2] Daniel, G., Gray, J., et al. (2018). Opt_einsum-a python package for optimizing contraction order for einsum-like expressions. Journal of Open Source Software, 3(26):753 https://github.com/dgasmith/opt_einsum    
-[3] Gray, J. and Kourtis, S. (2021). Hyper-optimized tensor network contraction. Quantum, 5:410. https://github.com/jcmgray/cotengra    
+[3] Gray, J. and Kourtis, S. (2021). Hyper-optimized tensor network contraction. Quantum, 5:410. https://github.com/jcmgray/cotengra   
+
+
+@article{2023NeurIPS,
+  title={Classical Simulation of Quantum Circuits Using Reinforcement Learning: Parallel Environments and Benchmark},
+  author={Liu, Xiao-Yang and Zhang, Zeliang},
+  journal={NeurIPS},
+  year={2023}
+}
   

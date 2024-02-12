@@ -141,10 +141,15 @@ About the tensor network dataset generation https://zhuanlan.zhihu.com/p/6282394
 [3] Gray, J. and Kourtis, S. (2021). Hyper-optimized tensor network contraction. Quantum, 5:410. https://github.com/jcmgray/cotengra   
 
 
+## Citation
+```
+
 @article{2023NeurIPS,
   title={Classical Simulation of Quantum Circuits Using Reinforcement Learning: Parallel Environments and Benchmark},
   author={Liu, Xiao-Yang and Zhang, Zeliang},
   journal={NeurIPS},
   year={2023}
 }
+
+```
   

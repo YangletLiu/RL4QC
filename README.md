@@ -26,9 +26,9 @@ __Dataset__: We will release various datasets for the tensor representations of 
 :white_check_mark: Tensor-Train/MPS tensor network  
 :white_check_mark: Tensor-Ring tensor network  
 :white_check_mark: Tree tensor network  
-:white_large_square: PEPS tensor network  
-:white_large_square: MERA tensor network  
-:white_large_square: Google's Sycamore circuit  
+:white_check_mark: PEPS tensor network  
+:white_check_mark: MERA tensor network  
+:white_check_mark: Google's Sycamore circuit  
 
 __Simulation environment__: We will develop efficient simulation environments for reserchers to debug their algirithms. For each tensor network, we will develop the single and the parallel version of the simulation environment, respectively. The parallel enviroment will be much more efficient in the data sampling, thus to significantly improve the efficiency of training RL agents.  
 

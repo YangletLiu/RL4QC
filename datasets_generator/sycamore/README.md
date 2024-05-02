@@ -1,12 +1,12 @@
-![Uploading 图片1.png…]()
 
 
+![图片1](https://github.com/RPIQuantumComputing/RL4QC/assets/75991833/b3169687-8de9-4c24-abf6-814519dac3ff)
 
 
 
 **1. Quantum Circuits Dataset:**
 
-    The quantum circuits have qubits n=53 and cycles (depth) m=12, 14, 16, 18, 20, respectively, and the datasets can be downloaded from https://datadryad.org/stash/dataset/doi:10.5061/dryad.k6t1rj8                                                                                                                                          
+    The quantum circuits have qubits n=53 and cycles (depth) m=12, 14, 16, 18, and 20, respectively, and the datasets can be downloaded from https://datadryad.org/stash/dataset/doi:10.5061/dryad.k6t1rj8                                                                                                                                          
     The file and the transformed txt file are located in sycamore_circuits/sycamore. Five scales of quantum circuits, n53m12, n53m14, n53m16, n53m18 and n53m20, are included.
 
 ![截屏2024-01-06 10 55 48](https://github.com/YangletLiu/RL4QuantumCircuits/assets/75991833/f283e6c0-346a-49ad-b254-851e4595e3f2)
@@ -23,7 +23,7 @@
 
     https://github.com/Fanerst/simulate_sycamore/tree/main
 
-   You can put datasets_generator/sycamore/Circuit2Tensor.py into the examples folder of the simulate_sycamore project for converting the format of the circuit file.
+   You can put datasets_generator/sycamore/Circuit2Tensor.py into the examples folder of the simulate_sycamore project to convert the format of the circuit file.
 
    The resulting Tensors and Labels files are:
 
